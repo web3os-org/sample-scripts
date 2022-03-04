@@ -5,7 +5,7 @@
     address: '0x497eDDeC909b6Cf6a1436D53bDbd180F0BCEf9F6',
     method: 'store',
     args: [value],
-    abiUrl: 'https://pastebin.com/raw/Ru0p33x5'
+    abiUrl: 'https://raw.githubusercontent.com/web3os-org/sample-scripts/master/contract/storage.abi'
   }
 
   await kernel.bin.contract.send(options)
