@@ -7,7 +7,7 @@
     address,
     method: 'changeOwner',
     args: [newOwner],
-    abiFile: '/scripts/owner.abi'
+    abiUrl: 'https://raw.githubusercontent.com/web3os-org/sample-scripts/master/contract/owner.abi'
   }
 
   terminal.log(`\n\nContract: ${address}`)
