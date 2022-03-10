@@ -16,4 +16,4 @@
 
   console.log(result) // browser console
   terminal.log(result) // web3os terminal
-)()
+})()
