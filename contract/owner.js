@@ -1,7 +1,7 @@
 (async () => {
   // Deploy Remix's default 2_Owner.sol
-  const newOwner = ''
   const address = '' // the contract address
+  const newOwner = ''
  
   const options = {
     address,
