@@ -1,7 +1,7 @@
 (async () => {
   const value = 69420
   const address = '0x497eDDeC909b6Cf6a1436D53bDbd180F0BCEf9F6' // Ropsten; or deploy Remix's default 1_Storage.sol
-  const { contract } = kernel.modules
+  const { contract } = Kernel.modules
  
   const options = {
     address,
@@ -17,5 +17,5 @@
   const result = await contract.call(options) // call = read; alias contract.read()
 
   console.log(result) // browser console
-  terminal.log(result) // web3os terminal
+  Terminal.log(result) // web3os terminal
 })()
